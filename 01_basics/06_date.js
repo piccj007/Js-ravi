@@ -1,4 +1,4 @@
-let myDate = new Date(2024,8,17)
+let myDate = new Date()
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
 // console.log(myDate.toJSON());
@@ -9,3 +9,8 @@ let myDate = new Date(2024,8,17)
 // console.log(myDate.toTimeString());
 // console.log(myDate.toUTCString());
 console.log(myDate)
+console.log(Math.floor(Date.now()/1000));
+//console.log(myDate.getUTCMonth())
+myDate.toLocaleString('default',{weekday:"long"})
+console.log();
+
